@@ -1,0 +1,36 @@
+body {
+	background-color: #EEEEEE;
+}
+
+#calculator {
+	width: 210px;
+	height: 280px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-105px, -107px);
+	background-color: #BBBBBB;
+	padding: 20px 10px 50px 10px;
+	border-radius: 10px;
+}
+
+.display {
+	line-height: 100%;
+	background-color: #DDDDDD;
+	text-align: right;
+	font-family: 'VT323', monospace;
+}
+
+#display-previous {
+	font-size: 20px;
+}
+
+#display {
+	font-size: 30px;
+}
+
+button {
+	height: 100%;
+	width: 100%;
+	box-shadow: 0 0 1px 1px #2B61FB;
+}
